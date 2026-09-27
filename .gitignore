@@ -1,0 +1,32 @@
+# Dependencies / build output
+node_modules
+dist
+dist-ssr
+*.local
+
+# Environment & secrets (only .env.example is ever committed)
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Backend: database, WAL files and the generated JWT signing key
+# (leading slash = repo root only, so src/data/ stays tracked)
+/data/
+*.db
+*.db-wal
+*.db-shm
+.jwt-secret
+
+# Test / coverage output
+coverage/

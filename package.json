@@ -1,0 +1,41 @@
+{
+  "name": "react-vite-tailwind",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:server": "node --watch --disable-warning=ExperimentalWarning server/index.js",
+    "server": "node --disable-warning=ExperimentalWarning server/index.js",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node --disable-warning=ExperimentalWarning server/start.js",
+    "test": "node --disable-warning=ExperimentalWarning --test \"server/*.test.js\""
+  },
+  "dependencies": {
+    "clsx": "2.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^1.48.0",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "react-router-dom": "^7.18.4",
+    "tailwind-merge": "3.4.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.1.17",
+    "@types/node": "22.19.17",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "5.1.1",
+    "tailwindcss": "4.1.17",
+    "typescript": "5.9.3",
+    "vite": "7.3.2",
+    "vite-plugin-singlefile": "2.3.0"
+  }
+}
