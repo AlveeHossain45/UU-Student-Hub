@@ -19,6 +19,22 @@ A premium all-in-one student platform for **Uttara University** students — **R
 - 🔎 Global search modal — **Ctrl + K** / **⌘ + K**
 - 📱 Fully responsive (collapsible desktop sidebar, mobile drawer)
 
+## 📸 Screenshots
+
+> **Placeholder** — run the app and save images under `screenshots/`, then replace the paths below.
+
+```md
+![Dashboard](screenshots/dashboard.png)
+![Routine](screenshots/routine.png)
+![CGPA Calculator](screenshots/cgpa.png)
+```
+
+## 🌐 Live Demo
+
+<!-- Add a deployment URL here once the app is published. -->
+
+*Not yet deployed — run locally with the steps below.*
+
 ## 🚀 Getting started
 
 ```bash
